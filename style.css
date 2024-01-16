@@ -1,0 +1,33 @@
+*{
+    font-family: helvetica;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+  }
+
+#botao{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #9932CC;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #BA55D3;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#botao:hover {
+    background-color: #ffffff;
+    color: 	#BA55D3;
+    border-color: 	#BA55D3;
+  }
+
